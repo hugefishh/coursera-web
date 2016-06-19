@@ -2,16 +2,19 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
 }
 
 h1 {
 	text-align: center;
-	margin-top: 10px; 
-	margin-bottom: 10px; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
 }
 
 .row {
   	width: 100%;
+  	padding-left: 5px;
+  	padding-right: 5px;
 }
 
 div.block {
@@ -28,8 +31,9 @@ p.content {
  p.sec-heading {
 	
 	border: 1px solid black;
-	padding: 0px 20px 0px 20px ;
+	padding: 2px 20px 2px 20px ;
 	float: right;
+	font-weight: bold;
 }
 
 .orange {
@@ -63,5 +67,8 @@ p.content {
 	}
 	.col-md-12 {
 		width: 100%;
+	}
+	.block {
+		margin-top: 0px;
 	}
 }
